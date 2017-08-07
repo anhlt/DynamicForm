@@ -1,0 +1,1 @@
+<textarea name="{{ $widget['name'] }}" @include('DynamicForm::attrs', ['widget' => $widget])>@if(isset($widget['value'])){{ $widget['value'] }}@endif</textarea>

@@ -1,0 +1,1 @@
+<input type="{{ $widget['type'] }}" name="{{ $widget['name'] }}" @if(! is_null($widget['value']) && $widget['value']!== "") value="{{ $widget['value'] }}" @endif @include('DynamicForm::attrs',['widget' => $widget])> @if(isset($widget['attrs']['suffix'])){{$widget['attrs']['suffix']}}@endif

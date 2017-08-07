@@ -1,0 +1,1 @@
+@foreach($widget['subwidgets'] as $w) @include($w['widget']['template_name'],['widget' => $w['widget']]) @endforeach

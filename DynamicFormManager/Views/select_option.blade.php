@@ -1,0 +1,1 @@
+<option value="{{ $widget['value'] }}" @include('DynamicForm::attrs',['widget' => $widget])>{{ $widget['label'] }}</option>
